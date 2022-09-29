@@ -21,5 +21,10 @@ public class Main
 
             System.out.println("The Temperature in Fahrenheit is: " + fahrenheit);
         }
+        else
+        {
+            trash = in.nextLine();
+            System.out.println(trash + " is a Bad input, run the program again!");
+        }
     }
 }
